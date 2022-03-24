@@ -1,0 +1,97 @@
+.containerLogin{
+    background-color: rgb(25, 4, 49);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+    top: 3rem;
+    left: 30%;
+    border: 20px solid rgb(25, 4, 49);
+    border-radius: 3rem;
+    box-shadow: 0 0 10px 10px rgb(117, 4, 93);
+}
+.containerLogin h2{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: rgb(7, 189, 113);
+}
+.containerLogin h4{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-weight: 400;
+    color: #fff;
+}
+.containerLogin p{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    color: #fff;
+}
+.containerLogin p:first-of-type{
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.containerForm{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 93.5%;
+    height: 17rem;
+}
+.containerForm input{
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+.containerForm input:focus{
+    outline: none;
+}
+.containerForm button:last-of-type{    
+    background-color: rgb(7, 71, 189);
+    transition: 0.2s ease;
+}
+.containerForm button:last-of-type:hover{    
+    background-color: rgb(7, 52, 136);
+    transition: 0.2s ease;
+}
+.containerForm button:first-of-type{    
+    background-color: rgb(7, 189, 113);
+    transition: 0.2s ease;
+}
+.containerForm button:first-of-type:hover{    
+    background-color: rgb(6, 129, 78);
+    transition: 0.2s ease;
+}
+.containerForm button{
+    padding: 1rem 0;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: rgb(189, 7, 7);
+    border: none;
+    border-radius: 0.5rem;
+    transition: 0.2s ease;
+}
+.containerForm button:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(136, 7, 7);
+    transition: 0.2s ease;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(7, 189, 113);
+    transition: 0.2s ease;
+}
+.link:hover{
+    color: rgb(6, 129, 78);
+    transition: 0.2s ease;
+}
